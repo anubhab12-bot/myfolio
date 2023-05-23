@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anubhab - Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 89px;
+            background-color: rgb(41, 41, 108);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            margin: 0 23px;
+            color: azure;
+        }
+
+        nav ul li a:hover {
+            color: lavender;
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsec {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+            align-items: center;
+        }
+
+        .firstsec>div {
+            width: 30%;
+        }
+
+        .leftsec {
+            font-size: 2.5rem;
+        }
+
+        .leftsec .button{
+            padding: 50px 0;
+        }
+
+        .leftsec .btn{
+            padding: 12px;
+            background: rgb(50, 50, 116);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        } 
+
+        .rightsec {
+            width: 50%;
+        }
+
+        .rightsec img {
+            width: 80%;
+        }
+
+        .purple {
+            color: blue;
+        }
+        #element{
+            color: blue;
+        }
+
+        .secsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secsection h1{
+            font-size: 1.9rem;
+        }
+        main hr{
+            background: #9c97f1;
+            border: 0;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .text_gray{
+            color: gray;
+        }
+
+        .secsection .box{
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 50px 0;
+            display: flex;
+        }
+
+        .secsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 150px;
+        }
+
+        .image_top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical_text{
+            position: relative;
+            width: 150px;
+            top: 75px;
+        }
+
+        .vertical_desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color: rgba(130, 90, 130, 0.61);
+            
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div{
+            width: 223px;
+        }
+
+        footer .footer_rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Anubhab's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsec">
+            <div class="leftsec">
+                Hi My name is <span class="purple">Anubhab</span> and
+                <div>I am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">View Github</button>
+                </div>
+            </div>
+            <div class="rightsec">
+                <img src="PngItem_1272135.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secsection">
+            <span class="text_gray">I have done so far</span>
+            <h1>Work Experiences</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image_top" src="developer.png" alt="">
+                    <div class="vertical_text">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, necessitatibus? Nemo, alias!
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="developer.png" alt="">
+                    <div class="vertical_text">
+                        Node.Js Developer (2012-2013)
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, necessitatibus? Nemo, alias!
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="developer.png" alt="">
+                    <div class="vertical_text">
+                        MERN Stack Developer (2013-2015)
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, necessitatibus? Nemo, alias!
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="developer.png" alt="">
+                    <div class="vertical_text">
+                        Sr. MERN Developer (2015-2018)
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, necessitatibus? Nemo, alias!
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="developer.png" alt="">
+                    <div class="vertical_text">
+                        Project Lead (2018-Present)
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, necessitatibus? Nemo, alias!
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer_first">
+                <h3>Anubhab's Dev Portfolio</h3>
+            </div>
+            <div class="footer_second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Email</li>
+                </ul>
+            </div>
+            <div class="footer_third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Email</li>
+                </ul>
+            </div>
+            <div class="footer_fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Email</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_rights">
+            Copyright &#169; anubhab'sportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'UI/UX Expert', 'Football Lover'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
